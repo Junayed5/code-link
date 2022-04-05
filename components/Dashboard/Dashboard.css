@@ -1,0 +1,10 @@
+.chart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.charts {
+    width: 600px;
+}
+h4{
+    color: #6861ef;
+}

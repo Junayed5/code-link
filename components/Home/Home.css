@@ -1,0 +1,36 @@
+.product{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 50px;
+}
+.product-name{
+    margin-top: 60px;
+}
+.product-name h1{
+    font-size: 50px;
+    margin: 10px;
+    color: brown;
+}
+
+.product-name p{
+    width: 500px;
+    margin: 0 auto;
+}
+.product-img img{
+    width: 600px;
+}
+.review-detail{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+.review-btn{
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2px;
+}
